@@ -2,15 +2,12 @@
  * Single source of truth for business facts.
  * Anything wrapped in [SQUARE BRACKETS] is a placeholder awaiting client confirmation.
  * Never replace a placeholder with an invented claim.
- *
- * The phone number is from Ofcom's reserved drama range for Manchester (0161 496 0xxx):
- * it will never connect to a real customer. Replace before launch.
  */
 export const SITE = {
   name: "[Business Name]",
   url: "https://www.example.co.uk", // TODO: real domain (used for canonical URLs and sitemap)
-  phoneDisplay: "0161 496 0000",
-  phoneHref: "tel:+441614960000",
+  phoneDisplay: "07933 013385",
+  phoneHref: "tel:+447933013385",
   email: "[CLIENT EMAIL]",
   address: "[CLIENT ADDRESS]",
   companyNumber: "[INSERT COMPANY NUMBER]",

@@ -30,7 +30,8 @@ const jsonLd = {
   url: SITE.url,
   areaServed: AREAS.map((a) => ({ "@type": "AdministrativeArea", name: a.name })),
   makesOffer: SERVICES.map((s) => ({ "@type": "Offer", itemOffered: { "@type": "Service", name: s.name } })),
-  // telephone, address, openingHours, sameAs: add once confirmed by the client.
+  telephone: "+447933013385",
+  // address, openingHours, sameAs: add once confirmed by the client.
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
